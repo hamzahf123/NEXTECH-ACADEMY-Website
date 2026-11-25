@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" width="800" height="540" role="img" aria-label="Illustration of a NEXTECH Academy classroom with a teacher explaining a maths concept">
+  <defs>
+    <linearGradient id="c-bg" x1="0" y1="0" x2="800" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#10305a"/>
+      <stop offset="0.6" stop-color="#081a2f"/>
+      <stop offset="1" stop-color="#050f1f"/>
+    </linearGradient>
+    <radialGradient id="c-glow" cx="0" cy="0" r="1" gradientTransform="translate(700 70) scale(320)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6c445" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#f6c445" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="c-board" x1="80" y1="60" x2="520" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e8f1fb"/>
+    </linearGradient>
+    <linearGradient id="c-blazer" x1="590" y1="150" x2="650" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd75e"/>
+      <stop offset="1" stop-color="#e0a800"/>
+    </linearGradient>
+    <pattern id="c-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <clipPath id="c-clip"><rect width="800" height="540" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#c-clip)">
+    <rect width="800" height="540" fill="url(#c-bg)"/>
+    <rect width="800" height="540" fill="url(#c-grid)"/>
+    <rect width="800" height="540" fill="url(#c-glow)"/>
+
+    <!-- back wall accents -->
+    <rect x="0" y="420" width="800" height="120" fill="#050f1f" opacity="0.55"/>
+    <circle cx="60" cy="120" r="70" fill="#ffffff" fill-opacity="0.03"/>
+    <circle cx="760" cy="420" r="120" fill="#2ec4b6" fill-opacity="0.05"/>
+
+    <!-- whiteboard -->
+    <rect x="58" y="48" width="484" height="276" rx="16" fill="#9fb3cc" fill-opacity="0.25"/>
+    <rect x="64" y="54" width="472" height="264" rx="13" fill="url(#c-board)"/>
+    <rect x="64" y="308" width="472" height="10" rx="5" fill="#b9cde3"/>
+    <rect x="86" y="302" width="44" height="6" rx="3" fill="#f6c445"/>
+    <rect x="138" y="302" width="30" height="6" rx="3" fill="#2ec4b6"/>
+
+    <g font-family="Georgia, 'Times New Roman', serif" fill="#123058">
+      <text x="96" y="104" font-size="23" font-weight="700">Quadratic Equations</text>
+      <path d="M96 116h228" stroke="#f6c445" stroke-width="4" stroke-linecap="round"/>
+      <text x="96" y="158" font-size="19">x² − 5x + 6 = 0</text>
+      <text x="96" y="196" font-size="19">(x − 2)(x − 3) = 0</text>
+      <text x="96" y="234" font-size="19">x = 2 , x = 3</text>
+      <text x="96" y="284" font-size="14" font-style="italic" fill="#2a5f8f">Check your steps — every single day.</text>
+    </g>
+
+    <!-- graph on board -->
+    <g transform="translate(392 214)">
+      <path d="M-56 0h112M0 -78v88" stroke="#9fb3cc" stroke-width="2"/>
+      <path d="M-52 22Q-20 -74 48 -38" fill="none" stroke="#dda81a" stroke-width="3.4" stroke-linecap="round"/>
+      <circle cx="-21" cy="-13" r="4" fill="#123058"/>
+      <circle cx="27" cy="-24" r="4" fill="#123058"/>
+      <text x="42" y="-42" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#2a5f8f">y = f(x)</text>
+      <circle cx="-56" cy="0" r="3" fill="#123058"/>
+    </g>
+
+    <!-- teacher -->
+    <g>
+      <path d="M596 176c-14 44-18 106-14 176h70c3-64 1-128-10-176z" fill="#0d2340"/>
+      <path d="M604 186c4-22 14-34 28-34s24 12 27 34l-8 96h-39z" fill="url(#c-blazer)"/>
+      <path d="M618 158h28l-6 26h-16z" fill="#eef4fb"/>
+      <path d="M622 158l10 18 10-18" fill="none" stroke="#123058" stroke-width="3" stroke-linejoin="round"/>
+      <rect x="603" y="286" width="24" height="66" rx="10" fill="#0b1b33"/>
+      <rect x="632" y="286" width="24" height="66" rx="10" fill="#0b1b33"/>
+      <circle cx="632" cy="128" r="26" fill="#e8b48d"/>
+      <path d="M606 124c0-20 12-32 27-32 14 0 25 9 27 24-9-4-20-2-30 4-8 5-16 6-24 4z" fill="#2b2b33"/>
+      <path d="M628 154h12v10a6 6 0 0 1-12 0z" fill="#dfa47c"/>
+      <!-- pointing arm -->
+      <path d="M604 182c-18 8-40 16-62 20" stroke="#e8b48d" stroke-width="13" stroke-linecap="round" fill="none"/>
+      <circle cx="540" cy="204" r="9" fill="#e8b48d"/>
+      <path d="M540 204l-86-22" stroke="#c9d7e8" stroke-width="4" stroke-linecap="round"/>
+      <path d="M454 182l-6-2 4-7 6 2z" fill="#8fa3bf"/>
+      <!-- resting arm -->
+      <path d="M658 184c12 22 16 46 14 70" stroke="#e8b48d" stroke-width="12" stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- floor -->
+    <path d="M0 470h800v70H0z" fill="#07182c"/>
+    <path d="M0 470h800" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <!-- desks -->
+    <g>
+      <rect x="122" y="446" width="196" height="16" rx="7" fill="#e8b48d"/>
+      <rect x="122" y="462" width="196" height="9" rx="4" fill="#c99672"/>
+      <rect x="150" y="471" width="10" height="44" fill="#8fa3bf"/>
+      <rect x="282" y="471" width="10" height="44" fill="#8fa3bf"/>
+      <rect x="380" y="446" width="196" height="16" rx="7" fill="#e8b48d"/>
+      <rect x="380" y="462" width="196" height="9" rx="4" fill="#c99672"/>
+      <rect x="408" y="471" width="10" height="44" fill="#8fa3bf"/>
+      <rect x="540" y="471" width="10" height="44" fill="#8fa3bf"/>
+    </g>
+
+    <!-- students (back view) -->
+    <g>
+      <path d="M186 448c0-30 16-48 38-48s38 18 38 48z" fill="#2b7cd3"/>
+      <circle cx="224" cy="374" r="30" fill="#3d2b23"/>
+      <path d="M194 372c0-19 13-32 30-32s30 13 30 30c-18 6-42 7-60 2z" fill="#241812"/>
+      <path d="M196 372c0 18 12 30 28 30" fill="none" stroke="#e8b48d" stroke-width="0"/>
+      <rect x="160" y="428" width="130" height="10" rx="5" fill="#ffffff" fill-opacity="0.92"/>
+      <rect x="160" y="422" width="130" height="8" rx="4" fill="#eef4fb"/>
+
+      <path d="M444 448c0-30 16-48 38-48s38 18 38 48z" fill="#2ec4b6" opacity="0.85"/>
+      <circle cx="482" cy="372" r="30" fill="#1e1410"/>
+      <path d="M452 370c0-19 13-32 30-32s30 13 30 30c-18 6-42 8-60 2z" fill="#120c09"/>
+      <rect x="418" y="428" width="130" height="10" rx="5" fill="#ffffff" fill-opacity="0.92"/>
+      <rect x="418" y="422" width="130" height="8" rx="4" fill="#eef4fb"/>
+    </g>
+
+    <!-- notes + pencil on desks -->
+    <g>
+      <rect x="172" y="404" width="72" height="26" rx="3" fill="#fffdf4" transform="rotate(-6 172 404)"/>
+      <path d="M180 412h48M180 419h40" stroke="#b9cde3" stroke-width="2" transform="rotate(-6 172 404)"/>
+      <rect x="470" y="406" width="70" height="24" rx="3" fill="#fffdf4" transform="rotate(4 470 406)"/>
+      <path d="M478 414h44M478 420h34" stroke="#b9cde3" stroke-width="2" transform="rotate(4 470 406)"/>
+      <rect x="556" y="412" width="8" height="34" rx="3" fill="#f6c445" transform="rotate(18 560 429)"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="799" height="539" rx="26" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+</svg>

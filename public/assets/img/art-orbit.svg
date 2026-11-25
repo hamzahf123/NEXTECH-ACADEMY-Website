@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Gold orbital emblem with NEXTECH monogram">
+  <defs>
+    <radialGradient id="o-bg" cx="0.5" cy="0.35" r="0.85">
+      <stop offset="0" stop-color="#0f2743"/>
+      <stop offset="0.55" stop-color="#071322"/>
+      <stop offset="1" stop-color="#040b14"/>
+    </radialGradient>
+    <linearGradient id="o-gold" x1="200" y1="120" x2="620" y2="700" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbeecb"/>
+      <stop offset="0.45" stop-color="#d9b45b"/>
+      <stop offset="1" stop-color="#8f6a24"/>
+    </linearGradient>
+    <radialGradient id="o-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e5c27a" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#e5c27a" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="o-clip"><rect width="800" height="800" rx="40"/></clipPath>
+  </defs>
+  <g clip-path="url(#o-clip)">
+    <rect width="800" height="800" fill="url(#o-bg)"/>
+    <circle cx="400" cy="380" r="320" fill="url(#o-glow)"/>
+
+    <g fill="none" stroke="url(#o-gold)">
+      <circle cx="400" cy="380" r="250" stroke-opacity="0.35"/>
+      <circle cx="400" cy="380" r="196" stroke-opacity="0.6" stroke-width="1.4"/>
+      <ellipse cx="400" cy="380" rx="330" ry="118" stroke-opacity="0.25" transform="rotate(-24 400 380)"/>
+      <ellipse cx="400" cy="380" rx="330" ry="118" stroke-opacity="0.18" transform="rotate(24 400 380)"/>
+      <ellipse cx="400" cy="380" rx="286" ry="286" stroke-opacity="0.18" stroke-dasharray="2 10"/>
+    </g>
+
+    <g fill="#f3dfae">
+      <circle cx="661" cy="212" r="5"/>
+      <circle cx="142" cy="514" r="4"/>
+      <circle cx="612" cy="596" r="3"/>
+    </g>
+    <path d="M400 112l8 20 20 8-20 8-8 20-8-20-20-8 20-8z" fill="#e5c27a" fill-opacity="0.8"/>
+
+    <circle cx="400" cy="380" r="150" fill="#050d17" fill-opacity="0.65" stroke="url(#o-gold)" stroke-opacity="0.5"/>
+    <path d="M336 440V320L464 440V320" fill="none" stroke="url(#o-gold)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="336" cy="320" r="8" fill="#fbeecb"/>
+    <circle cx="464" cy="440" r="6" fill="#5ee6d4"/>
+
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="7" fill="#e5c27a" fill-opacity="0.75" text-anchor="middle">
+      <text x="400" y="616">NEXTECH ACADEMY</text>
+      <text x="400" y="642" font-size="10" letter-spacing="5">G H O U R I   T O W N   ·   I S L A M A B A D</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="799" height="799" rx="40" fill="none" stroke="#dcbf85" stroke-opacity="0.2"/>
+</svg>
