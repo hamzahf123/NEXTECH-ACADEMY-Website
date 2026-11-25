@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" width="800" height="540" role="img" aria-label="Illustration of NEXTECH Academy students performing a chemistry practical in the science lab">
+  <defs>
+    <linearGradient id="l-bg" x1="0" y1="0" x2="800" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b2746"/>
+      <stop offset="0.6" stop-color="#071a2f"/>
+      <stop offset="1" stop-color="#040d1b"/>
+    </linearGradient>
+    <radialGradient id="l-glow1" cx="0" cy="0" r="1" gradientTransform="translate(640 80) scale(300)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2ec4b6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2ec4b6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="l-glow2" cx="0" cy="0" r="1" gradientTransform="translate(120 60) scale(260)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6c445" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#f6c445" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="l-coat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f8ff"/>
+      <stop offset="1" stop-color="#cfddec"/>
+    </linearGradient>
+    <linearGradient id="l-liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ee6d4"/>
+      <stop offset="1" stop-color="#1f9c8f"/>
+    </linearGradient>
+    <linearGradient id="l-liquid2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe7a3"/>
+      <stop offset="1" stop-color="#dda81a"/>
+    </linearGradient>
+    <pattern id="l-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <clipPath id="l-clip"><rect width="800" height="540" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#l-clip)">
+    <rect width="800" height="540" fill="url(#l-bg)"/>
+    <rect width="800" height="540" fill="url(#l-grid)"/>
+    <rect width="800" height="540" fill="url(#l-glow1)"/>
+    <rect width="800" height="540" fill="url(#l-glow2)"/>
+
+    <!-- wall board / formula panel -->
+    <rect x="452" y="64" width="286" height="196" rx="14" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.09"/>
+    <text x="474" y="102" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#8fa3bf">TODAY'S PRACTICAL</text>
+    <text x="474" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#e6eef9">2HCl + Zn → ZnCl₂ + H₂</text>
+    <text x="474" y="170" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#e6eef9">CuSO₄ + Fe → FeSO₄ + Cu</text>
+    <text x="474" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#8fa3bf">Observe · Record · Analyse</text>
+    <rect x="474" y="222" width="120" height="4" rx="2" fill="#f6c445" fill-opacity="0.7"/>
+
+    <!-- shelf with reagent bottles -->
+    <g>
+      <rect x="56" y="150" width="330" height="9" rx="4" fill="#c9d7e8" fill-opacity="0.5"/>
+      <g>
+        <rect x="76" y="100" width="26" height="50" rx="5" fill="#f6c445" fill-opacity="0.8"/>
+        <rect x="84" y="88" width="10" height="14" rx="3" fill="#eef4fb"/>
+        <rect x="118" y="112" width="22" height="38" rx="5" fill="#2ec4b6" fill-opacity="0.8"/>
+        <rect x="124" y="102" width="10" height="12" rx="3" fill="#eef4fb"/>
+        <rect x="156" y="106" width="30" height="44" rx="6" fill="#eef4fb" fill-opacity="0.85"/>
+        <rect x="166" y="94" width="10" height="14" rx="3" fill="#c9d7e8"/>
+        <rect x="204" y="118" width="24" height="32" rx="5" fill="#8fa3bf" fill-opacity="0.7"/>
+        <path d="M240 150V118l8-12 8 12v32z" fill="#5ee6d4" fill-opacity="0.65"/>
+      </g>
+    </g>
+
+    <!-- students -->
+    <g>
+      <!-- left student -->
+      <path d="M206 400c0-54 32-84 74-84s74 30 74 84z" fill="url(#l-coat)"/>
+      <path d="M258 320l22 30 22-30" fill="none" stroke="#c9d7e8" stroke-width="3"/>
+      <path d="M238 388c0 8 18 14 42 14s42-6 42-14" fill="none" stroke="#c9d7e8" stroke-width="3"/>
+      <circle cx="280" cy="258" r="34" fill="#dfa47c"/>
+      <path d="M247 250c2-24 16-38 34-38 17 0 30 11 33 28-22-8-46-5-67 10z" fill="#241812"/>
+      <path d="M248 252c-6 0-8 8-3 12" fill="none" stroke="#dfa47c" stroke-width="6" stroke-linecap="round"/>
+      <!-- goggles -->
+      <path d="M247 246h66" stroke="#0d2340" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="267" cy="256" rx="15" ry="12" fill="#5ee6d4" fill-opacity="0.32" stroke="#eef4fb" stroke-width="3"/>
+      <ellipse cx="267" cy="256" rx="9" ry="6" fill="#ffffff" fill-opacity="0.22"/>
+      <ellipse cx="296" cy="256" rx="9" ry="11" fill="#5ee6d4" fill-opacity="0.22" stroke="#eef4fb" stroke-width="2.5"/>
+      <path d="M278 262c4 6 10 7 14 2" fill="none" stroke="#b97c55" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M252 306c10 4 34 4 48-4" fill="none" stroke="#c9d7e8" stroke-width="3"/>
+      <!-- arms to bench -->
+      <path d="M214 344c24 18 52 28 86 34" fill="none" stroke="#f4f8ff" stroke-width="22" stroke-linecap="round"/>
+      <path d="M292 370c18 4 28 12 32 24" fill="none" stroke="#dfa47c" stroke-width="14" stroke-linecap="round"/>
+
+      <!-- right student -->
+      <path d="M452 400c0-54 32-84 74-84s74 30 74 84z" fill="url(#l-coat)"/>
+      <path d="M504 320l24 30 24-30" fill="none" stroke="#c9d7e8" stroke-width="3"/>
+      <path d="M484 388c0 8 18 14 42 14s42-6 42-14" fill="none" stroke="#c9d7e8" stroke-width="3"/>
+      <circle cx="528" cy="258" r="34" fill="#c98d64"/>
+      <path d="M495 252c0-26 16-40 34-40 14 0 27 9 31 24-21-4-42 3-58 18z" fill="#120c09"/>
+      <path d="M558 262c6-2 10 4 6 9" fill="none" stroke="#c98d64" stroke-width="6" stroke-linecap="round"/>
+      <path d="M496 246h64" stroke="#0d2340" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="514" cy="256" rx="10" ry="11" fill="#5ee6d4" fill-opacity="0.22" stroke="#eef4fb" stroke-width="2.5"/>
+      <ellipse cx="543" cy="256" rx="15" ry="12" fill="#5ee6d4" fill-opacity="0.32" stroke="#eef4fb" stroke-width="3"/>
+      <ellipse cx="543" cy="256" rx="9" ry="6" fill="#ffffff" fill-opacity="0.22"/>
+      <path d="M528 274c4-6 10-6 14 0" fill="none" stroke="#a9704b" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M506 344c-18 18-40 28-70 34" fill="none" stroke="#f4f8ff" stroke-width="22" stroke-linecap="round"/>
+      <path d="M436 378c-16 4-24 10-28 18" fill="none" stroke="#c98d64" stroke-width="14" stroke-linecap="round"/>
+    </g>
+
+    <!-- bench -->
+    <rect x="0" y="392" width="800" height="20" rx="6" fill="#d8b58c"/>
+    <rect x="0" y="412" width="800" height="128" fill="#07182c"/>
+    <path d="M0 412h800" stroke="#ffffff" stroke-opacity="0.08"/>
+    <rect x="0" y="392" width="800" height="5" fill="#f0d3ad" opacity="0.6"/>
+
+    <!-- glassware -->
+    <g>
+      <!-- beaker -->
+      <path d="M330 322h58v58a10 10 0 0 1-10 10h-38a10 10 0 0 1-10-10z" fill="#eef4fb" fill-opacity="0.16" stroke="#eef4fb" stroke-opacity="0.65" stroke-width="2"/>
+      <path d="M333 352h52v28a7 7 0 0 1-7 7h-38a7 7 0 0 1-7-7z" fill="url(#l-liquid)" opacity="0.9"/>
+      <path d="M330 322l-6-10h70l-6 10" fill="#eef4fb" fill-opacity="0.3"/>
+      <path d="M342 342h34" stroke="#ffffff" stroke-opacity="0.5" stroke-width="2"/>
+      <circle cx="350" cy="366" r="3.5" fill="#ffffff" fill-opacity="0.55"/>
+      <circle cx="366" cy="374" r="2.5" fill="#ffffff" fill-opacity="0.45"/>
+
+      <!-- conical flask -->
+      <path d="M400 300h16v18l26 52a9 9 0 0 1-8 13h-52a9 9 0 0 1-8-13l26-52z" fill="#eef4fb" fill-opacity="0.16" stroke="#eef4fb" stroke-opacity="0.65" stroke-width="2"/>
+      <path d="M416 350l20 42a7 7 0 0 1-6 10h-40a7 7 0 0 1-6-10l20-42z" fill="url(#l-liquid2)" opacity="0.9"/>
+      <path d="M397 294h22" stroke="#eef4fb" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="420" cy="378" r="3" fill="#ffffff" fill-opacity="0.5"/>
+      <path d="M394 342c14 4 28 3 38-3" stroke="#ffffff" stroke-opacity="0.4" stroke-width="2"/>
+
+      <!-- test tube rack -->
+      <g>
+        <rect x="600" y="352" width="112" height="8" rx="3" fill="#b98b5e"/>
+        <rect x="600" y="386" width="112" height="8" rx="3" fill="#b98b5e"/>
+        <rect x="604" y="360" width="6" height="28" fill="#b98b5e"/>
+        <rect x="702" y="360" width="6" height="28" fill="#b98b5e"/>
+        <g>
+          <rect x="614" y="320" width="16" height="68" rx="8" fill="#eef4fb" fill-opacity="0.16" stroke="#eef4fb" stroke-opacity="0.55" stroke-width="2"/>
+          <rect x="616" y="354" width="12" height="34" rx="6" fill="#2ec4b6" opacity="0.85"/>
+          <rect x="640" y="330" width="16" height="58" rx="8" fill="#eef4fb" fill-opacity="0.16" stroke="#eef4fb" stroke-opacity="0.55" stroke-width="2"/>
+          <rect x="642" y="358" width="12" height="30" rx="6" fill="#f6c445" opacity="0.85"/>
+          <rect x="666" y="316" width="16" height="72" rx="8" fill="#eef4fb" fill-opacity="0.16" stroke="#eef4fb" stroke-opacity="0.55" stroke-width="2"/>
+          <rect x="668" y="352" width="12" height="36" rx="6" fill="#ff7a7a" opacity="0.8"/>
+        </g>
+      </g>
+
+      <!-- graduated cylinder -->
+      <g>
+        <rect x="148" y="318" width="30" height="86" rx="7" fill="#eef4fb" fill-opacity="0.16" stroke="#eef4fb" stroke-opacity="0.6" stroke-width="2"/>
+        <rect x="151" y="354" width="24" height="46" rx="5" fill="#5ee6d4" opacity="0.8"/>
+        <path d="M154 332h18M154 344h18M154 356h12" stroke="#ffffff" stroke-opacity="0.45" stroke-width="2"/>
+        <path d="M142 318h42" stroke="#eef4fb" stroke-opacity="0.6" stroke-width="4" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- bubbles -->
+    <g fill="none" stroke="#5ee6d4" stroke-opacity="0.55" stroke-width="2">
+      <circle cx="352" cy="300" r="5"/>
+      <circle cx="368" cy="278" r="3.5"/>
+      <circle cx="338" cy="286" r="2.5"/>
+      <circle cx="414" cy="286" r="4"/>
+      <circle cx="432" cy="266" r="2.5"/>
+    </g>
+
+    <!-- notes sheet -->
+    <g transform="rotate(-4 236 430)">
+      <rect x="196" y="412" width="86" height="58" rx="4" fill="#fffdf4" opacity="0.92"/>
+      <path d="M206 426h66M206 436h58M206 446h62M206 456h38" stroke="#b9cde3" stroke-width="2"/>
+    </g>
+    <rect x="310" y="430" width="9" height="44" rx="4" fill="#f6c445" transform="rotate(12 314 452)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="799" height="539" rx="26" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+</svg>

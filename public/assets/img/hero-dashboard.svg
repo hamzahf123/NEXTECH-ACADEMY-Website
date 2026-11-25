@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 560" width="680" height="560" role="img" aria-label="NEXTECH Academy learning dashboard illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="680" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0e2747"/>
+      <stop offset="0.55" stop-color="#081729"/>
+      <stop offset="1" stop-color="#050f1f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(600 40) rotate(135) scale(300 300)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6c445" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#f6c445" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe7a3"/>
+      <stop offset="0.45" stop-color="#f6c445"/>
+      <stop offset="1" stop-color="#dda81a"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5ee6d4"/>
+      <stop offset="1" stop-color="#22a99b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="90" y1="70" x2="560" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#12315a"/>
+      <stop offset="1" stop-color="#0a1b33"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+    <clipPath id="frameClip"><rect width="680" height="560" rx="30"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="680" height="560" fill="url(#bg)"/>
+    <rect width="680" height="560" fill="url(#grid)"/>
+    <rect width="680" height="560" fill="url(#glow)"/>
+
+    <!-- decorative orbit -->
+    <g opacity="0.5">
+      <ellipse cx="590" cy="300" rx="118" ry="48" fill="none" stroke="#f6c445" stroke-opacity="0.28" stroke-width="1.2" transform="rotate(-28 590 300)"/>
+      <ellipse cx="590" cy="300" rx="78" ry="30" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1" transform="rotate(-28 590 300)"/>
+      <circle cx="646" cy="212" r="4" fill="#f6c445"/>
+      <circle cx="536" cy="372" r="3" fill="#2ec4b6"/>
+    </g>
+
+    <!-- dashboard card -->
+    <g filter="url(#soft)">
+      <rect x="44" y="62" width="592" height="356" rx="24" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.12"/>
+    </g>
+    <rect x="44" y="62" width="592" height="48" rx="24" fill="#ffffff" fill-opacity="0.04"/>
+    <rect x="44" y="98" width="592" height="12" fill="#ffffff" fill-opacity="0.04"/>
+    <circle cx="72" cy="86" r="4.5" fill="#ff7a7a"/>
+    <circle cx="88" cy="86" r="4.5" fill="#f6c445"/>
+    <circle cx="104" cy="86" r="4.5" fill="#2ec4b6"/>
+    <rect x="126" y="78" width="150" height="16" rx="8" fill="#ffffff" fill-opacity="0.08"/>
+    <text x="136" y="90" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9fb3cc">academy.next / dashboard</text>
+    <path d="M596 78h18M596 84h18M596 90h12" stroke="#ffffff" stroke-opacity="0.28" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- sidebar -->
+    <g>
+      <rect x="72" y="132" width="34" height="34" rx="11" fill="#f6c445"/>
+      <path d="M83 149l6 5 6-5" fill="none" stroke="#071426" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="72" y="178" width="34" height="34" rx="11" fill="#ffffff" fill-opacity="0.07"/>
+      <path d="M83 195h12M83 201h8" stroke="#9fb3cc" stroke-width="2" stroke-linecap="round"/>
+      <rect x="72" y="224" width="34" height="34" rx="11" fill="#ffffff" fill-opacity="0.07"/>
+      <circle cx="89" cy="241" r="6" fill="none" stroke="#9fb3cc" stroke-width="2"/>
+      <rect x="72" y="270" width="34" height="34" rx="11" fill="#ffffff" fill-opacity="0.07"/>
+      <path d="M83 287h12M83 293h7" stroke="#9fb3cc" stroke-width="2" stroke-linecap="round"/>
+      <rect x="72" y="316" width="34" height="34" rx="11" fill="#ffffff" fill-opacity="0.07"/>
+      <path d="M84 333a5 5 0 1 1 10 0v6h-10z" fill="none" stroke="#9fb3cc" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M118 132v218" stroke="#ffffff" stroke-opacity="0.08"/>
+    </g>
+
+    <!-- content header -->
+    <text x="140" y="158" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Class 10 — Physics</text>
+    <text x="140" y="180" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" fill="#8fa3bf">Chapter 4 · Motion &amp; Force · Weekly Test 06</text>
+    <rect x="520" y="140" width="88" height="28" rx="14" fill="#f6c445" fill-opacity="0.14" stroke="#f6c445" stroke-opacity="0.4"/>
+    <circle cx="535" cy="154" r="3.5" fill="#f6c445"/>
+    <text x="545" y="158" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" fill="#ffe7a3">Admission Open</text>
+
+    <!-- bars -->
+    <g>
+      <path d="M140 336h466" stroke="#ffffff" stroke-opacity="0.1"/>
+      <path d="M140 296h466" stroke="#ffffff" stroke-opacity="0.07" stroke-dasharray="3 6"/>
+      <path d="M140 256h466" stroke="#ffffff" stroke-opacity="0.07" stroke-dasharray="3 6"/>
+      <rect x="146" y="286" width="30" height="50" rx="9" fill="url(#gold)" opacity="0.55"/>
+      <rect x="196" y="266" width="30" height="70" rx="9" fill="url(#gold)" opacity="0.7"/>
+      <rect x="246" y="296" width="30" height="40" rx="9" fill="url(#gold)" opacity="0.45"/>
+      <rect x="296" y="246" width="30" height="90" rx="9" fill="url(#gold)"/>
+      <rect x="346" y="276" width="30" height="60" rx="9" fill="url(#gold)" opacity="0.8"/>
+      <rect x="396" y="262" width="30" height="74" rx="9" fill="url(#teal)" opacity="0.85"/>
+      <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#7288a5" text-anchor="middle">
+        <text x="161" y="354">Mon</text>
+        <text x="211" y="354">Tue</text>
+        <text x="261" y="354">Wed</text>
+        <text x="311" y="354">Thu</text>
+        <text x="361" y="354">Fri</text>
+        <text x="411" y="354">Sat</text>
+      </g>
+    </g>
+
+    <!-- progress ring -->
+    <g transform="translate(548 272)">
+      <circle r="42" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="9"/>
+      <circle r="42" fill="none" stroke="url(#gold)" stroke-width="9" stroke-linecap="round"
+              stroke-dasharray="242 264" transform="rotate(-90)"/>
+      <text x="0" y="2" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#ffffff">92%</text>
+      <text x="0" y="18" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#9fb3cc">avg. test score</text>
+    </g>
+
+    <!-- bottom strip inside dashboard -->
+    <rect x="140" y="370" width="170" height="26" rx="13" fill="#ffffff" fill-opacity="0.06"/>
+    <circle cx="154" cy="383" r="3.5" fill="#2ec4b6"/>
+    <text x="163" y="386.5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" fill="#b9c8db">Live class · 5:30 PM</text>
+
+    <!-- lower info card -->
+    <g filter="url(#soft)">
+      <rect x="44" y="440" width="312" height="88" rx="18" fill="#0b1b33" stroke="#ffffff" stroke-opacity="0.1"/>
+    </g>
+    <rect x="64" y="458" width="38" height="38" rx="12" fill="#f6c445" fill-opacity="0.16" stroke="#f6c445" stroke-opacity="0.4"/>
+    <path d="M76 480l4-9 5 5 5-11 4 15" fill="none" stroke="#f6c445" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="118" y="472" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Academic Programs</text>
+    <text x="118" y="490" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#8fa3bf">9th · 10th · 1st Year · 2nd Year</text>
+    <text x="118" y="506" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#8fa3bf">Federal Board &amp; Punjab Board</text>
+
+    <!-- lower accent card -->
+    <g filter="url(#soft)">
+      <rect x="376" y="440" width="260" height="88" rx="18" fill="#122b4d" stroke="#ffffff" stroke-opacity="0.12"/>
+    </g>
+    <rect x="396" y="458" width="38" height="38" rx="12" fill="#2ec4b6" fill-opacity="0.16" stroke="#2ec4b6" stroke-opacity="0.4"/>
+    <path d="M408 479h14M408 486h9" stroke="#5ee6d4" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="450" y="472" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Professional Courses</text>
+    <text x="450" y="490" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#8fa3bf">Web · Graphics · Shorthand</text>
+    <text x="450" y="506" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#8fa3bf">Practical, project-based training</text>
+  </g>
+  <rect x="0.5" y="0.5" width="679" height="559" rx="30" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+</svg>

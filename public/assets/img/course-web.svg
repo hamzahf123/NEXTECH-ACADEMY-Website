@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Web development course illustration with code editor">
+  <defs>
+    <linearGradient id="w-bg" x1="0" y1="0" x2="640" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#12305a"/>
+      <stop offset="1" stop-color="#050f1f"/>
+    </linearGradient>
+    <radialGradient id="w-glow" cx="0" cy="0" r="1" gradientTransform="translate(540 30) scale(260)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6c445" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#f6c445" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="w-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+    <clipPath id="w-clip"><rect width="640" height="400" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#w-clip)">
+    <rect width="640" height="400" fill="url(#w-bg)"/>
+    <rect width="640" height="400" fill="url(#w-grid)"/>
+    <rect width="640" height="400" fill="url(#w-glow)"/>
+
+    <!-- editor window -->
+    <rect x="46" y="46" width="548" height="308" rx="18" fill="#081729" stroke="#ffffff" stroke-opacity="0.13"/>
+    <rect x="46" y="46" width="548" height="42" rx="18" fill="#ffffff" fill-opacity="0.05"/>
+    <rect x="46" y="74" width="548" height="14" fill="#ffffff" fill-opacity="0.05"/>
+    <circle cx="72" cy="67" r="4.5" fill="#ff7a7a"/>
+    <circle cx="88" cy="67" r="4.5" fill="#f6c445"/>
+    <circle cx="104" cy="67" r="4.5" fill="#2ec4b6"/>
+    <text x="126" y="71" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#8fa3bf">index.html</text>
+    <text x="206" y="71" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#5a7392">style.css</text>
+    <text x="272" y="71" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#5a7392">app.js</text>
+
+    <!-- code lines -->
+    <g font-family="'Cascadia Code', Consolas, monospace" font-size="12">
+      <text x="74" y="122" fill="#5a7392">1</text>
+      <text x="74" y="144" fill="#5a7392">2</text>
+      <text x="74" y="166" fill="#5a7392">3</text>
+      <text x="74" y="188" fill="#5a7392">4</text>
+      <text x="74" y="210" fill="#5a7392">5</text>
+      <text x="74" y="232" fill="#5a7392">6</text>
+      <text x="74" y="254" fill="#5a7392">7</text>
+      <text x="74" y="276" fill="#5a7392">8</text>
+      <text x="74" y="298" fill="#5a7392">9</text>
+      <text x="74" y="320" fill="#5a7392">10</text>
+
+      <text x="100" y="122" fill="#c792ea">&lt;section</text>
+      <text x="166" y="122" fill="#f6c445">class=</text>
+      <text x="212" y="122" fill="#a5d6a7">"hero"</text>
+      <text x="258" y="122" fill="#c792ea">&gt;</text>
+
+      <text x="118" y="144" fill="#8fa3bf">&lt;h1&gt;</text>
+      <text x="162" y="144" fill="#eef4fb">Build. Create. Launch.</text>
+      <text x="330" y="144" fill="#8fa3bf">&lt;/h1&gt;</text>
+
+      <text x="118" y="166" fill="#8fa3bf">&lt;p&gt;</text>
+      <text x="156" y="166" fill="#2ec4b6">From idea to interface.</text>
+      <text x="314" y="166" fill="#8fa3bf">&lt;/p&gt;</text>
+
+      <text x="100" y="188" fill="#c792ea">&lt;/section&gt;</text>
+      <text x="100" y="210" fill="#8fa3bf">&lt;script</text>
+      <text x="166" y="210" fill="#f6c445">src=</text>
+      <text x="198" y="210" fill="#a5d6a7">"app.js"</text>
+      <text x="262" y="210" fill="#8fa3bf">&gt;&lt;/script&gt;</text>
+
+      <text x="100" y="240" fill="#5a7392">// weekly build challenge</text>
+      <text x="100" y="262" fill="#c792ea">function</text>
+      <text x="168" y="262" fill="#f6c445">deploy</text>
+      <text x="212" y="262" fill="#eef4fb">(project) {</text>
+      <text x="118" y="284" fill="#c792ea">return</text>
+      <text x="168" y="284" fill="#eef4fb">project</text>
+      <text x="216" y="284" fill="#2ec4b6">.launch();</text>
+      <text x="100" y="306" fill="#eef4fb">}</text>
+    </g>
+
+    <!-- cursor -->
+    <rect x="312" y="301" width="6" height="14" rx="1" fill="#f6c445"/>
+
+    <!-- floating terminal chip -->
+    <g>
+      <rect x="420" y="250" width="150" height="66" rx="12" fill="#0b1b33" stroke="#f6c445" stroke-opacity="0.35"/>
+      <text x="436" y="272" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#8fa3bf">$ npm run build</text>
+      <text x="436" y="292" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#5ee6d4">✓ compiled in 1.2s</text>
+      <circle cx="440" cy="304" r="3" fill="#2ec4b6"/>
+      <rect x="448" y="302" width="54" height="4" rx="2" fill="#ffffff" fill-opacity="0.16"/>
+    </g>
+
+    <!-- decorative brackets -->
+    <text x="540" y="132" font-family="Consolas, monospace" font-size="46" fill="#f6c445" fill-opacity="0.16">{ }</text>
+    <text x="30" y="356" font-family="Consolas, monospace" font-size="40" fill="#2ec4b6" fill-opacity="0.18">&lt;/&gt;</text>
+  </g>
+  <rect x="0.5" y="0.5" width="639" height="399" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+</svg>

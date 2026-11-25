@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="Shorthand course illustration with notebook, pen and speed indicator">
+  <defs>
+    <linearGradient id="s-bg" x1="0" y1="0" x2="640" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#102b4d"/>
+      <stop offset="1" stop-color="#050f1f"/>
+    </linearGradient>
+    <radialGradient id="s-glow" cx="0" cy="0" r="1" gradientTransform="translate(470 50) scale(270)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6c445" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#f6c445" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="s-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+    <clipPath id="s-clip"><rect width="640" height="400" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#s-clip)">
+    <rect width="640" height="400" fill="url(#s-bg)"/>
+    <rect width="640" height="400" fill="url(#s-grid)"/>
+    <rect width="640" height="400" fill="url(#s-glow)"/>
+
+    <!-- notebook -->
+    <g transform="rotate(-5 300 210)">
+      <rect x="86" y="62" width="386" height="290" rx="14" fill="#0a1a2f" fill-opacity="0.6"/>
+      <rect x="78" y="54" width="386" height="290" rx="14" fill="#f6f9ff"/>
+      <rect x="78" y="54" width="386" height="290" rx="14" fill="none" stroke="#c9d7e8"/>
+      <path d="M112 54v290" stroke="#f0b8b8" stroke-width="2"/>
+      <g stroke="#dfe8f4" stroke-width="1.4">
+        <path d="M112 104h330M112 140h330M112 176h330M112 212h330M112 248h330M112 284h330"/>
+      </g>
+
+      <!-- shorthand strokes -->
+      <g fill="none" stroke="#123058" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M136 100c14-16 28-16 36-2s20 14 30 2 18-10 28 2"/>
+        <path d="M136 128c10 8 18 8 26 0s18-8 26 0 18 8 26 0"/>
+        <path d="M136 160c18-10 26 2 38 2s20-12 34-4 16 14 30 6"/>
+        <path d="M136 190c12-8 22-8 30 2s16 12 26 0 18-8 28 4"/>
+        <path d="M136 222c14 10 24 10 34 0s22-8 30 4 20 6 30-2"/>
+        <path d="M136 254c10-12 22-12 30 0s16 10 26-2 18-6 26 4"/>
+        <path d="M136 286c18-8 28 4 40 2s18-10 32-4"/>
+        <path d="M136 314c12 6 22 6 30-2s18-4 24 4"/>
+      </g>
+      <g fill="#dda81a">
+        <circle cx="196" cy="106" r="4"/>
+        <circle cx="266" cy="106" r="4"/>
+        <circle cx="196" cy="196" r="4"/>
+        <circle cx="300" cy="260" r="4"/>
+      </g>
+
+      <!-- pen -->
+      <g transform="translate(360 214) rotate(38)">
+        <rect x="0" y="0" width="15" height="118" rx="7" fill="#0b1b33"/>
+        <rect x="0" y="0" width="15" height="34" rx="7" fill="#f6c445"/>
+        <path d="M0 118h15L7.5 138z" fill="#e8b48d"/>
+        <path d="M4 132h7L7.5 140z" fill="#0b1b33"/>
+        <rect x="4" y="42" width="7" height="40" fill="#ffffff" fill-opacity="0.14"/>
+      </g>
+
+      <!-- page clip / bookmark -->
+      <path d="M398 54v46l12-9 12 9V54z" fill="#f6c445"/>
+    </g>
+
+    <!-- speed gauge -->
+    <g transform="translate(546 292)">
+      <path d="M-46 0a46 46 0 0 1 92 0" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="8" stroke-linecap="round"/>
+      <path d="M-46 0a46 46 0 0 1 70-39" fill="none" stroke="#f6c445" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="5" fill="#eef4fb"/>
+      <path d="M0 0l24-22" stroke="#eef4fb" stroke-width="4" stroke-linecap="round"/>
+      <text x="0" y="32" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">120</text>
+      <text x="0" y="48" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" letter-spacing="2" fill="#8fa3bf">WPM</text>
+    </g>
+
+    <!-- sound waves -->
+    <g fill="none" stroke="#2ec4b6" stroke-opacity="0.55" stroke-width="2.6" stroke-linecap="round">
+      <path d="M566 128v72M584 108v112M602 134v60M620 116v96"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="639" height="399" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.1"/>
+</svg>

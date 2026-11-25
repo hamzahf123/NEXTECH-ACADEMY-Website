@@ -1,0 +1,31 @@
+VERCEL DEPLOY - NEXTECH ACADEMY
+================================
+
+1) Is folder ko OneDrive se bahar nikaalein (recommended), e.g.:
+   C:\Projects\NEXTECH-ACADEMY-Website
+
+2) Dependencies (Node 20.19+ ya 22):
+   npm ci
+
+3) Local test:
+   npm run build
+   npm run preview      ->  http://localhost:4173
+
+4) Deploy - PROJECT ROOT se (dist se NAHI):
+   npx vercel login
+   npx vercel            (preview URL)
+   npx vercel --prod     (production)
+
+   Ya GitHub par push karke vercel.com -> Add New -> Project -> Import:
+   Framework: Vite | Build: npm run build | Output: dist | Node: 22.x
+
+5) Domain: Vercel -> Settings -> Domains -> nextechacademy.pk
+   Root: A 76.76.21.21      www: CNAME cname.vercel-dns.com
+
+6) Verify:
+   curl.exe -I https://nextechacademy.pk/
+   content-security-policy / strict-transport-security / x-content-type-options
+   aane chahiye. /courses direct khol kar SPA rewrite bhi check karein.
+
+NOTE: sirf dist folder upload na karein - tab vercel.json ke
+security headers aur SPA rewrites apply nahi hote.

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Illustration of the NEXTECH ACADEMY student portal on a mobile device">
+  <defs>
+    <linearGradient id="p-bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0e2a4a"/>
+      <stop offset="0.6" stop-color="#071627"/>
+      <stop offset="1" stop-color="#040c16"/>
+    </linearGradient>
+    <radialGradient id="p-glow" cx="0" cy="0" r="1" gradientTransform="translate(620 80) scale(360)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5c27a" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#e5c27a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbeecb"/>
+      <stop offset="0.5" stop-color="#d9b45b"/>
+      <stop offset="1" stop-color="#a87c25"/>
+    </linearGradient>
+    <linearGradient id="p-device" x1="250" y1="60" x2="560" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d243c"/>
+      <stop offset="1" stop-color="#060f1b"/>
+    </linearGradient>
+    <pattern id="p-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+    <clipPath id="p-clip"><rect width="800" height="600" rx="28"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#p-clip)">
+    <rect width="800" height="600" fill="url(#p-bg)"/>
+    <rect width="800" height="600" fill="url(#p-grid)"/>
+    <rect width="800" height="600" fill="url(#p-glow)"/>
+
+    <g fill="none" stroke="#dcbf85" stroke-opacity="0.2">
+      <ellipse cx="400" cy="300" rx="330" ry="140" transform="rotate(-18 400 300)"/>
+      <ellipse cx="400" cy="300" rx="360" ry="118" transform="rotate(16 400 300)"/>
+    </g>
+    <g fill="#f3dfae">
+      <circle cx="690" cy="212" r="3.5" opacity="0.8"/>
+      <circle cx="116" cy="392" r="2.6" opacity="0.6"/>
+      <circle cx="648" cy="486" r="2.2" opacity="0.5"/>
+    </g>
+
+    <!-- device -->
+    <g filter="none">
+      <rect x="252" y="58" width="296" height="486" rx="36" fill="#020710" opacity="0.6"/>
+      <rect x="246" y="52" width="296" height="486" rx="36" fill="url(#p-device)" stroke="url(#p-gold)" stroke-opacity="0.38"/>
+      <rect x="262" y="68" width="264" height="454" rx="26" fill="#081928"/>
+      <rect x="352" y="74" width="84" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.14"/>
+
+      <!-- header -->
+      <circle cx="292" cy="120" r="16" fill="#0b2036" stroke="url(#p-gold)" stroke-opacity="0.5"/>
+      <path d="M285 128V114l14 14v-14" fill="none" stroke="#e5c27a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="318" y="116" font-family="Georgia, serif" font-size="13" letter-spacing="0.5" fill="#f8f2e6">NEXTECH</text>
+      <text x="318" y="130" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="6.5" letter-spacing="2.4" fill="#d9b45b">STUDENT PORTAL</text>
+      <circle cx="534" cy="120" r="11" fill="#ffffff" fill-opacity="0.05"/>
+      <circle cx="534" cy="116" r="4" fill="none" stroke="#8fa3bf" stroke-width="1.4"/>
+      <path d="M527 127c1-3 4-4 7-4s6 1 7 4" fill="none" stroke="#8fa3bf" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M270 150h248" stroke="#ffffff" stroke-opacity="0.1"/>
+
+      <!-- greeting -->
+      <text x="278" y="180" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" letter-spacing="1.6" fill="#8fa3bf">WELCOME BACK</text>
+      <text x="278" y="205" font-family="Georgia, serif" font-size="20" fill="#f8f2e6">Ahmed Khan</text>
+      <text x="278" y="221" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#7c90a8">Class 10th · Roll 1024</text>
+
+      <!-- ring -->
+      <g transform="translate(470 196)">
+        <circle r="34" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="6"/>
+        <circle r="34" fill="none" stroke="url(#p-gold)" stroke-width="6" stroke-linecap="round" stroke-dasharray="196 214" transform="rotate(-90)"/>
+        <text x="0" y="3" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">92%</text>
+        <text x="0" y="17" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="5.5" letter-spacing="0.6" fill="#8fa3bf">ATTENDANCE</text>
+      </g>
+
+      <!-- rows -->
+      <g>
+        <rect x="278" y="244" width="220" height="52" rx="11" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.07"/>
+        <rect x="288" y="256" width="28" height="28" rx="8" fill="#d9b45b" fill-opacity="0.14" stroke="#d9b45b" stroke-opacity="0.3"/>
+        <path d="M295 270h14M295 275h9" stroke="#e5c27a" stroke-width="1.8" stroke-linecap="round"/>
+        <text x="326" y="266" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#f1e9db">Attendance</text>
+        <text x="326" y="279" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#8fa3bf">April · 96% present</text>
+        <text x="482" y="272" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#5ee6d4">View</text>
+
+        <rect x="278" y="304" width="220" height="52" rx="11" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.07"/>
+        <rect x="288" y="316" width="28" height="28" rx="8" fill="#d9b45b" fill-opacity="0.14" stroke="#d9b45b" stroke-opacity="0.3"/>
+        <path d="M295 332h14M295 338h9" stroke="#e5c27a" stroke-width="1.8" stroke-linecap="round"/>
+        <text x="326" y="326" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#f1e9db">Fee status</text>
+        <text x="326" y="339" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#8fa3bf">April · Paid in full</text>
+        <text x="482" y="332" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#5ee6d4">Receipt</text>
+
+        <rect x="278" y="364" width="220" height="52" rx="11" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.07"/>
+        <rect x="288" y="376" width="28" height="28" rx="8" fill="#d9b45b" fill-opacity="0.14" stroke="#d9b45b" stroke-opacity="0.3"/>
+        <path d="M296 392l4-6 4 4 4-7" fill="none" stroke="#e5c27a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="326" y="386" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#f1e9db">Assignments</text>
+        <text x="326" y="399" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#8fa3bf">2 due this week</text>
+        <text x="482" y="392" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#5ee6d4">Open</text>
+      </g>
+
+      <!-- CTA -->
+      <rect x="278" y="432" width="220" height="38" rx="19" fill="url(#p-gold)"/>
+      <text x="388" y="456" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.2" fill="#101820">OPEN PORTAL</text>
+      <text x="388" y="496" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" letter-spacing="0.8" fill="#6d829a">nextechsms.duckdns.org</text>
+    </g>
+
+    <!-- floating cards -->
+    <g>
+      <rect x="66" y="246" width="164" height="70" rx="13" fill="#0a1b2d" stroke="#dcbf85" stroke-opacity="0.28"/>
+      <circle cx="92" cy="272" r="11" fill="#d9b45b" fill-opacity="0.16"/>
+      <path d="M87 272l3 3 6-6" fill="none" stroke="#e5c27a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="110" y="270" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#8fa3bf">Weekly test</text>
+      <text x="110" y="286" font-family="Georgia, serif" font-size="16" fill="#f8f2e6">92%</text>
+      <rect x="82" y="298" width="132" height="4" rx="2" fill="#ffffff" fill-opacity="0.1"/>
+      <rect x="82" y="298" width="112" height="4" rx="2" fill="url(#p-gold)"/>
+    </g>
+
+    <g>
+      <rect x="574" y="350" width="160" height="72" rx="13" fill="#0a1b2d" stroke="#dcbf85" stroke-opacity="0.28"/>
+      <circle cx="600" cy="376" r="11" fill="#2ec4b6" fill-opacity="0.16"/>
+      <path d="M595 376h10M600 371v10" stroke="#5ee6d4" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="618" y="374" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#8fa3bf">Assignments</text>
+      <text x="618" y="390" font-family="Georgia, serif" font-size="16" fill="#f8f2e6">All caught up</text>
+      <text x="590" y="408" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#6d829a">No pending submissions</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="799" height="599" rx="28" fill="none" stroke="#dcbf85" stroke-opacity="0.18"/>
+</svg>
