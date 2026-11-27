@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import { NAV, SITE, waLink } from '../data/site.js';
 import { academicPrograms, professionalCourses } from '../data/courses.js';
 import Icon from './Icon.jsx';
@@ -10,6 +10,21 @@ export default function Header() {
   const headRef = useRef(null);
   const progressRef = useRef(null);
   const closeRef = useRef(null);
+  const { pathname, hash } = useLocation();
+
+  /* Close the mobile drawer whenever the route (or #hash) changes, so tapping
+     a menu link no longer leaves the drawer sitting on top of the new page. */
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname, hash]);
+
+  /* Escape key closes the drawer too. */
+  useEffect(() => {
+    if (!open) return undefined;
+    const onKey = (e) => { if (e.key === 'Escape') setOpen(false); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [open]);
 
   /* One rAF-throttled listener updates the sticky header directly on the DOM —
      no React re-render per scroll frame. */
@@ -198,7 +213,7 @@ export default function Header() {
 
           <nav className="drawer__nav" aria-label="Mobile navigation">
             {NAV.map((item, i) => (
-              <NavLink key={item.to} to={item.to} end={item.to === '/'} className="drawer__link">
+              <NavLink key={item.to} to={item.to} end={item.to === '/'} className="drawer__link" onClick={() => setOpen(false)}>
                 <span className="drawer__num">{String(i + 1).padStart(2, '0')}</span>
                 {item.label}
               </NavLink>
@@ -213,16 +228,16 @@ export default function Header() {
             <p className="eyebrow eyebrow--dark"><span className="eyebrow__mark" />Programmes</p>
             <div className="drawer__program-links">
               {academicPrograms.map((p) => (
-                <Link key={p.id} to={'/courses#' + p.id}>{p.title}</Link>
+                <Link key={p.id} to={'/courses#' + p.id} onClick={() => setOpen(false)}>{p.title}</Link>
               ))}
               {professionalCourses.map((c) => (
-                <Link key={c.id} to={'/courses#' + c.id}>{c.title}</Link>
+                <Link key={c.id} to={'/courses#' + c.id} onClick={() => setOpen(false)}>{c.title}</Link>
               ))}
             </div>
           </div>
 
           <div className="drawer__foot">
-            <Link className="btn btn--gold btn--block" to="/admissions#inquiry">
+            <Link className="btn btn--gold btn--block" to="/admissions#inquiry" onClick={() => setOpen(false)}>
               Apply for admission <Icon name="arrow-right" size={15} />
             </Link>
             <a className="btn btn--line btn--block" href={waLink()} target="_blank" rel="noopener noreferrer">

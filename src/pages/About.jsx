@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Seo from '../components/Seo.jsx';
 import PageHero from '../components/PageHero.jsx';
@@ -5,6 +6,35 @@ import Icon from '../components/Icon.jsx';
 import Reveal, { Counter } from '../components/Reveal.jsx';
 import CTABand from '../components/CTABand.jsx';
 import { ART, SITE } from '../data/site.js';
+
+function CeoPortrait() {
+  const [hasPhoto, setHasPhoto] = useState(true);
+  return (
+    <figure className="ceo__card">
+      <div className="ceo__plate">
+        {hasPhoto ? (
+          <img
+            className="ceo__photo"
+            src="/assets/img/ceo.jpg"
+            alt={`${SITE.ceo}, Chief Executive Officer of NEXTECH ACADEMY`}
+            width="600"
+            height="750"
+            onError={() => setHasPhoto(false)}
+          />
+        ) : (
+          <img
+            className="ceo__logo"
+            src="/assets/img/ceo.jpg"
+            alt="NEXTECH ACADEMY logo"
+            width="656"
+            height="544"
+          />
+        )}
+      </div>
+      <figcaption className="ceo__label">Message from the Owner of NEXTECH</figcaption>
+    </figure>
+  );
+}
 
 const REASONS = [
   {
@@ -168,15 +198,9 @@ export default function About() {
       <section className="section section--deep">
         <div className="container">
           <div className="ceo">
-            <Reveal className="ceo__portrait" variant="left">
-              <div className="frame frame--gold">
-                <img src={ART.arches} alt="Decorative monogram artwork representing NEXTECH ACADEMY" width="1200" height="760" loading="lazy" />
-              </div>
-              <div className="ceo__monogram">
-                <img src={ART.logoMarkLight} alt="NEXTECH ACADEMY crest" width="88" height="88" />
-              </div>
-              <span className="ceo__label">Message from the CEO</span>
-            </Reveal>
+           <Reveal className="ceo__portrait" variant="left">
+             <CeoPortrait />
+           </Reveal>
 
             <Reveal className="ceo__copy" variant="right" delay={100}>
               <p className="eyebrow eyebrow--gold"><span className="eyebrow__mark" />Leadership</p>
@@ -239,22 +263,24 @@ export default function About() {
           </div>
 
           <div className="about-stats">
-            <Reveal className="about-stat">
-              <span className="about-stat__value"><Counter value={4} /></span>
-              <span>Academic classes<br />9th – 2nd Year</span>
-            </Reveal>
-            <Reveal className="about-stat" delay={60}>
-              <span className="about-stat__value"><Counter value={3} /></span>
-              <span>Professional<br />short courses</span>
-            </Reveal>
-            <Reveal className="about-stat" delay={120}>
-              <span className="about-stat__value">Weekly</span>
-              <span>Tests &amp; feedback<br />for every student</span>
-            </Reveal>
-            <Reveal className="about-stat" delay={180}>
-              <span className="about-stat__value">1</span>
-              <span>Portal for attendance,<br />fees &amp; assignments</span>
-            </Reveal>
+            <div className="about-stats">
+  <Reveal className="about-stat">
+    <span className="about-stat__value">01</span>
+    <span>Academic classes<br />9th – 2nd Year</span>
+  </Reveal>
+  <Reveal className="about-stat" delay={60}>
+    <span className="about-stat__value">02</span>
+    <span>Professional<br />short courses</span>
+  </Reveal>
+  <Reveal className="about-stat" delay={120}>
+    <span className="about-stat__value">03</span>
+    <span>Weekly tests &amp; feedback<br />for every student</span>
+  </Reveal>
+  <Reveal className="about-stat" delay={180}>
+    <span className="about-stat__value">04</span>
+    <span>Student portal for attendance,<br />fees &amp; assignments</span>
+  </Reveal>
+</div>
           </div>
         </div>
       </section>
