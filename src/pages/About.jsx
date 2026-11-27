@@ -16,7 +16,7 @@ function CeoPortrait() {
           <img
             className="ceo__photo"
             src="/assets/img/ceo.jpg"
-            alt={`${SITE.ceo}, Chief Executive Officer of NEXTECH ACADEMY`}
+            alt={`${SITE.ceo}, Owner of NEXTECH ACADEMY`}
             width="600"
             height="750"
             onError={() => setHasPhoto(false)}
@@ -71,7 +71,7 @@ const REASONS = [
 
 export default function About() {
   return (
-    <>
+    <main >
       <Seo
         title="About NEXTECH ACADEMY — Our Story, Mission & Leadership | Islamabad"
         description="Learn about NEXTECH ACADEMY in Ghouri Town Phase-5, Islamabad: our story, mission and vision, a message from Owner of NEXTECH Khizer Feroze, and why students and parents choose us."
@@ -289,6 +289,6 @@ export default function About() {
         title="Come and see the difference for yourself."
         text="Book a campus visit, meet the teachers and ask us the difficult questions. Admissions are open for the new session."
       />
-    </>
+    </main>
   );
 }

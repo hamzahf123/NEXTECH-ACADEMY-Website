@@ -218,7 +218,11 @@ table { border-collapse: collapse; }
 .container--narrow { max-width: 900px; }
 
 .section { position: relative; padding-block: clamp(72px, 8.4vw, 128px); }
-.section--tight { padding-block: clamp(52px, 6vw, 88px); }
+.section--tight {
+  padding-block-start: clamp(36px, 3.6vw, 60px);
+  padding-block-end:   clamp(36px, 3.6vw, 60px);
+}
+
 .section--cream {
   background:
     linear-gradient(180deg, rgba(255, 252, 243, 0.55), rgba(231, 217, 189, 0.5)),
@@ -3345,3 +3349,13 @@ a.apply__detail:hover strong { color: var(--copper); }
 .login-card__brand .mark { height: 44px; width: auto; }
 .footer__brand .brand .mark { height: 62px; background: #fff; padding: 6px 10px; border-radius: 12px; }
 @media (max-width: 640px) { .brand .mark { width: auto !important; height: 40px !important; } .footer__brand .brand .mark { height: 52px !important; } }
+/* ===== tighter vertical rhythm ===== */
+.section {
+  padding-block-start: clamp(48px, 4.6vw, 76px);
+  padding-block-end:   clamp(48px, 4.6vw, 76px);
+}
+.section + .section {
+  padding-block-start: clamp(26px, 2.6vw, 40px);
+}
+.strip    { margin-top: clamp(18px, 2vw, 28px); }
+.cta-wrap { padding-block: clamp(36px, 3.6vw, 56px); }
