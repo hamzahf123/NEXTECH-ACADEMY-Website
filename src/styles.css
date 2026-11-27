@@ -1355,7 +1355,7 @@ table { border-collapse: collapse; }
 .ccard__media {
   position: relative;
   display: block;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 16 / 10;
   overflow: hidden;
   background: #111;
   border-bottom: 1px solid var(--rule);

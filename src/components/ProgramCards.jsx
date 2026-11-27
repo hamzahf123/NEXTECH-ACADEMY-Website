@@ -52,7 +52,7 @@ export function CourseCard({ course, index = 0 }) {
     <Reveal className="ccard" delay={index * 80} as="article" {...spotlight}>
       <span className="spot-glow" aria-hidden="true" />
       <Link className="ccard__media" to={`/courses#${course.id}`} aria-label={`${course.title} course details`}>
-        <img src={course.image} alt={`${course.title} course artwork`} width="640" height="400" loading="lazy" />
+        <img src={course.image} alt={`${course.title} course artwork`} width="1280" height="800" loading="lazy"  decoding="async" />
         <span className="ccard__tag">{course.tag}</span>
         <span className="ccard__duration"><Icon name="clock" size={13} /> {course.duration}</span>
       </Link>
