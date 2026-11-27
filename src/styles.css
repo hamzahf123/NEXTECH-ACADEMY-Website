@@ -2912,6 +2912,16 @@ a.apply__detail:hover strong { color: var(--copper); }
 .reason h3 { font-size: 1.04rem; margin-bottom: 7px; }
 .reason p { font-size: 0.84rem; line-height: 1.56; color: var(--ink-3); margin: 0; }
 
+.section--ceo,
+.section--deep:has(> .container > .ceo) {
+  background:
+    radial-gradient(900px 480px at 15% 0%, rgba(198, 161, 90, 0.16), transparent 65%),
+    linear-gradient(180deg, var(--paper-2), var(--paper-3));
+  border-block: 1px solid var(--rule-soft);
+}
+.section--ceo .ceo,
+.section--deep:has(> .container > .ceo) .ceo { background: var(--paper-soft); box-shadow: var(--shadow-plate), var(--shadow-lift); }
+
 .ceo {
   display: grid;
   grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
