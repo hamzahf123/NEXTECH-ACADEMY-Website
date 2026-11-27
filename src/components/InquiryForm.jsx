@@ -150,7 +150,7 @@ export default function InquiryForm({ variant = 'inquiry', id = 'inquiry', formT
               name="name"
               type="text"
               autoComplete="name"
-              placeholder={variant === 'admission' ? 'e.g. Ahmed Khan' : 'Your name'}
+              placeholder={variant === 'admission' ? ' Please Enter Your Name' : 'Your name'}
               value={values.name}
               onChange={set('name')}
               aria-invalid={errors.name ? 'true' : undefined}
@@ -183,7 +183,7 @@ export default function InquiryForm({ variant = 'inquiry', id = 'inquiry', formT
               name="phone"
               type="tel"
               autoComplete="tel"
-              placeholder="0313-1534876"
+              placeholder="03XX-XXXXXXX"
               value={values.phone}
               onChange={set('phone')}
               aria-invalid={errors.phone ? 'true' : undefined}
@@ -268,7 +268,7 @@ export default function InquiryForm({ variant = 'inquiry', id = 'inquiry', formT
               rows="4"
               placeholder={
                 variant === 'admission'
-                  ? 'Current school, board, subjects, or a question about timings.'
+                  ? 'question about timings.'
                   : 'Tell us how we can help.'
               }
               value={values.message}
