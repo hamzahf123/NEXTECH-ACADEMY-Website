@@ -3359,3 +3359,11 @@ a.apply__detail:hover strong { color: var(--copper); }
 }
 .strip    { margin-top: clamp(18px, 2vw, 28px); }
 .cta-wrap { padding-block: clamp(36px, 3.6vw, 56px); }
+/* hero facts: right-side value column hata dein */
+.hero__fact {
+  grid-template-columns: 44px minmax(0, 1fr);
+}
+.hero__fact-value {
+  display: none;
+}
+
